@@ -19,7 +19,7 @@ download_data = False   # True when downloading price data from yfinance | False
 
 raw_price_data_interval = "1d"
 raw_price_data_period = "6mo"
-raw_price_data_file_path = f"/Users/emmanuelbutterworth/Desktop/Price Data/US Equity Raw Prices ({raw_price_data_period} at {raw_price_data_interval}).csv"
+raw_price_data_file_path = f"US Equity Raw Prices ({raw_price_data_period} at {raw_price_data_interval}).csv"
 
 initial_capital = 10_000
 rf = 0.0433 # Annual Compounding
@@ -137,7 +137,7 @@ def load_tickers(ticker_files: str):
     Returns:
         dict[str, str]: Mapping of ticker symbols to names.
     """
-    tickers_df = pd.concat(pd.read_csv(f"/Users/emmanuelbutterworth/Desktop/Tickers/{i}", header = None) for i in ticker_files)
+    tickers_df = pd.concat(pd.read_csv(f"{i}", header = None) for i in ticker_files)
 
     tickers = dict(zip(
         tickers_df[0].astype(str).str.strip(), 
