@@ -5,6 +5,54 @@ It then loads ticker and name pairs from CSV files to form a universe dictionary
 
 Next, the strategy converts prices into simple daily returns and computes each asset’s mean return and standard deviation. These are annualised, and an annual Sharpe ratio is calculated for every asset as excess annual return over annual volatility. The universe is screened by selecting the top n assets with the highest Sharpe ratios, and only these assets prices and returns are carried forward.
 
-With the screened set, the program computes the annualised covariance matrix and uses it to build a Global Minimum Variance portfolio under long only, fully invested constraints. Rather than directly minimising variance, it reuses a Sharpe maximisation optimiser by setting the risk free rate to zero and assigning equal expected returns to all assets, making the optimisation equivalent to minimising volatility. The resulting weights are printed and converted into dollar allocations, with optional visualisations such as a covariance heatmap and a donut chart of portfolio weights.
+<p align="center">
+  <img width="2000" height="1494" alt="1" src="https://github.com/user-attachments/assets/c05f667a-8db0-4891-a8f7-515d2f462d40" />
+  <br>
+  <em><b>Figure 1.</b> Residual (spread) time series for a qualified tradable pair, with equilibrium level shown as a dashed line.</em>
+</p>
+
+<br>
+
+With the screened set, the program computes the annualised covariance matrix and uses it to build a Global Minimum Variance portfolio under long only, fully invested constraints. Rather than directly minimising variance, it reuses a Sharpe maximisation optimiser by setting the risk free rate to zero and assigning equal expected returns to all assets, making the optimisation equivalent to minimising volatility. The resulting weights are printed and converted into dollar allocations, with visualisations such as a covariance heatmap and a donut chart of portfolio weights.
+
+<p align="center">
+  <img width="976" height="804" alt="2" src="https://github.com/user-attachments/assets/2f1a313e-b298-4cc7-879d-b6b6815b8cd0" />
+  <br>
+  <em><b>Figure 2.</b> Residual (spread) time series for a qualified tradable pair, with equilibrium level shown as a dashed line.</em>
+</p>
+
+<br>
+
+<p align="center">
+  <img width="2000" height="1198" alt="3" src="https://github.com/user-attachments/assets/573f8f0f-5f4a-418f-a17a-0f67cb9927e2" />
+  <br>
+  <em><b>Figure 3.</b> Residual (spread) time series for a qualified tradable pair, with equilibrium level shown as a dashed line.</em>
+</p>
+
+<br>
 
 Finally, the script reports portfolio expected return, volatility, and Sharpe ratio, then constructs a portfolio value series by normalising asset prices to their starting values and applying the fixed weights to produce a buy and hold style portfolio path. Benchmark value series are built similarly where available, and the portfolio is plotted against benchmarks alongside volatility and Sharpe bar charts. A CPPI function is then applied as a snapshot sizing overlay, calculating risky and safe weights from the current portfolio value relative to the floor, and outputting the implied risky allocation to the optimised portfolio.
+
+<p align="center">
+  <img width="2000" height="996" alt="4" src="https://github.com/user-attachments/assets/3256731b-9077-4b15-944e-ece001a8b0b0" />
+  <br>
+  <em><b>Figure 4.</b> Residual (spread) time series for a qualified tradable pair, with equilibrium level shown as a dashed line.</em>
+</p>
+
+<br>
+
+<p align="center">
+  <img width="2000" height="1146" alt="5" src="https://github.com/user-attachments/assets/78a0ef5b-bc3d-4e62-98cf-dbea56e2a70c" />
+  <br>
+  <em><b>Figure 5.</b> Residual (spread) time series for a qualified tradable pair, with equilibrium level shown as a dashed line.</em>
+</p>
+
+<br>
+
+<p align="center">
+  <img width="1998" height="1490" alt="6" src="https://github.com/user-attachments/assets/0030db91-330c-4e42-87a2-f6bc97cecd6d" />
+  <br>
+  <em><b>Figure 6.</b> Residual (spread) time series for a qualified tradable pair, with equilibrium level shown as a dashed line.</em>
+</p>
+
+<br>
