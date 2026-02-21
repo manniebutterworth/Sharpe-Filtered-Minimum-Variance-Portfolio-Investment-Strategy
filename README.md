@@ -42,7 +42,7 @@ Finally, the script reports portfolio expected return, volatility, and Sharpe ra
 <br>
 
 <p align="center">
-  <img width="2000" height="1146" alt="5" src="https://github.com/user-attachments/assets/78a0ef5b-bc3d-4e62-98cf-dbea56e2a70c" />
+  <img width="1998" height="844" alt="5" src="https://github.com/user-attachments/assets/c49b4925-8e78-44b1-879b-79a0784bfe7d" />
   <br>
   <em><b>Figure 5.</b> Residual (spread) time series for a qualified tradable pair, with equilibrium level shown as a dashed line.</em>
 </p>
@@ -50,7 +50,7 @@ Finally, the script reports portfolio expected return, volatility, and Sharpe ra
 <br>
 
 <p align="center">
-  <img width="1998" height="1490" alt="6" src="https://github.com/user-attachments/assets/0030db91-330c-4e42-87a2-f6bc97cecd6d" />
+  <img width="1998" height="1234" alt="6" src="https://github.com/user-attachments/assets/8f58c288-25bc-4645-b17e-a4c32d8ead8e" />
   <br>
   <em><b>Figure 6.</b> Residual (spread) time series for a qualified tradable pair, with equilibrium level shown as a dashed line.</em>
 </p>
