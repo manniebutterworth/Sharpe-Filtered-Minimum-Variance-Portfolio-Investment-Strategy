@@ -315,7 +315,7 @@ def plot_sharpe(annual_sharpe: pd.Series, top_n: int = portfolio_assets_consider
     plt.tight_layout()
     plt.show()
 
-#plot_sharpe(annual_sharpe, top_n=portfolio_assets_considered)
+plot_sharpe(annual_sharpe, top_n=portfolio_assets_considered)
 
 # -----------------------------------------------------------------------------------------------------
 print(f"\n---------- PHASE 3: OPTIMISE WEIGHTS FOR GLOBAL MINIMUM VARIANCE (GMV) PORTFOLIO ----------")
@@ -341,7 +341,7 @@ def plot_selected_covariance_heatmap(selected_assets_covariance_matrix: pd.DataF
     plt.tight_layout()
     plt.show()
 
-#plot_selected_covariance_heatmap(selected_assets_covariance_matrix)
+plot_selected_covariance_heatmap(selected_assets_covariance_matrix)
 
 # ---------- ANNUAL RETURN & STD FOR SELECTED ASSETS ----------
 
@@ -512,7 +512,7 @@ def plot_portfolio_weights_pie(
     plt.tight_layout()
     plt.show()
 
-#plot_portfolio_weights_pie(portfolio_weights)
+plot_portfolio_weights_pie(portfolio_weights)
 
 # ---------- FIND EXPECTED RETURN & VOL OF PORTFOLIO ----------
 
