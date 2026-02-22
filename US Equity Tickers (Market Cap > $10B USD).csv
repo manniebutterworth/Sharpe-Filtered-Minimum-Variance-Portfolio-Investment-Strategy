@@ -46,7 +46,6 @@ AXP,American Express Company
 PEP,"PepsiCo, Inc."
 MCD,McDonald's Corporation
 TMUS,"T-Mobile US, Inc."
-C/PR,"Citigroup Inc. Depositary Shares, Each Representing a 1/1,000th Interest in a Share of 6.250% Noncumulative Preferred Stock, Series II"
 C,"Citigroup, Inc."
 GEV,GE Vernova Inc.
 LIN,Linde plc
@@ -795,4 +794,5 @@ XLI,Industrials
 XLB,Materials
 XLRE,Real Estate
 XLK,Information Technology
+
 XLU,Utilities
