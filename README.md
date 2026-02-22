@@ -56,3 +56,5 @@ Finally, the script reports portfolio expected return, volatility, and Sharpe ra
 </p>
 
 <br>
+
+The next steps for future versions of this project include backtesting over a longer history to validate effectiveness, improving return and covariance estimation with more robust methods, and exploring machine learning for forecasting or regime detection. The holding period and rebalance frequency can also be tuned as backtest hyperparameters using walk forward validation.
