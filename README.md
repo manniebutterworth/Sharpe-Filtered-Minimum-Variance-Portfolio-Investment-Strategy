@@ -8,7 +8,7 @@ Next, the strategy converts prices into simple daily returns and computes each a
 <p align="center">
   <img width="2000" height="1494" alt="1" src="https://github.com/user-attachments/assets/c05f667a-8db0-4891-a8f7-515d2f462d40" />
   <br>
-  <em><b>Figure 1.</b> Residual (spread) time series for a qualified tradable pair, with equilibrium level shown as a dashed line.</em>
+  <em><b>Figure 1.</b> Top 30 assets ranked by annual Sharpe ratio after annualisation.</em>
 </p>
 
 <br>
@@ -18,7 +18,7 @@ With the screened set, the program computes the annualised covariance matrix and
 <p align="center">
   <img width="976" height="804" alt="2" src="https://github.com/user-attachments/assets/2f1a313e-b298-4cc7-879d-b6b6815b8cd0" />
   <br>
-  <em><b>Figure 2.</b> Residual (spread) time series for a qualified tradable pair, with equilibrium level shown as a dashed line.</em>
+  <em><b>Figure 2.</b> Annualised covariance matrix heatmap for the Sharpe screened asset set.</em>
 </p>
 
 <br>
@@ -26,7 +26,7 @@ With the screened set, the program computes the annualised covariance matrix and
 <p align="center">
   <img width="2000" height="1198" alt="3" src="https://github.com/user-attachments/assets/573f8f0f-5f4a-418f-a17a-0f67cb9927e2" />
   <br>
-  <em><b>Figure 3.</b> Residual (spread) time series for a qualified tradable pair, with equilibrium level shown as a dashed line.</em>
+  <em><b>Figure 3.</b> Optimised long only portfolio weights, aggregated into a donut chart view.</em>
 </p>
 
 <br>
@@ -36,7 +36,7 @@ Finally, the script reports portfolio expected return, volatility, and Sharpe ra
 <p align="center">
   <img width="2000" height="996" alt="4" src="https://github.com/user-attachments/assets/3256731b-9077-4b15-944e-ece001a8b0b0" />
   <br>
-  <em><b>Figure 4.</b> Residual (spread) time series for a qualified tradable pair, with equilibrium level shown as a dashed line.</em>
+  <em><b>Figure 4.</b> Portfolio value series versus selected benchmark series over the sample window.</em>
 </p>
 
 <br>
@@ -44,7 +44,7 @@ Finally, the script reports portfolio expected return, volatility, and Sharpe ra
 <p align="center">
   <img width="1998" height="844" alt="5" src="https://github.com/user-attachments/assets/c49b4925-8e78-44b1-879b-79a0784bfe7d" />
   <br>
-  <em><b>Figure 5.</b> Residual (spread) time series for a qualified tradable pair, with equilibrium level shown as a dashed line.</em>
+  <em><b>Figure 5.</b> Annualised volatility comparison for the portfolio and benchmarks.</em>
 </p>
 
 <br>
@@ -52,7 +52,7 @@ Finally, the script reports portfolio expected return, volatility, and Sharpe ra
 <p align="center">
   <img width="1998" height="1234" alt="6" src="https://github.com/user-attachments/assets/8f58c288-25bc-4645-b17e-a4c32d8ead8e" />
   <br>
-  <em><b>Figure 6.</b> Residual (spread) time series for a qualified tradable pair, with equilibrium level shown as a dashed line.</em>
+  <em><b>Figure 6.</b> Annual Sharpe ratio comparison for the portfolio and benchmarks.</em>
 </p>
 
 <br>
